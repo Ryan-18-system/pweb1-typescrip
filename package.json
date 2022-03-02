@@ -1,0 +1,22 @@
+{
+  "name": "banco-node-1",
+  "version": "1.0.0",
+  "description": "Atividade TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ryan-18-system/pweb1-typescrip.git"
+  },
+  "author": "Ryan Nóbrega",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ryan-18-system/pweb1-typescrip/issues"
+  },
+  "homepage": "https://github.com/Ryan-18-system/pweb1-typescrip#readme",
+  "dependencies": {
+    "typescript": "^4.6.2"
+  }
+}
