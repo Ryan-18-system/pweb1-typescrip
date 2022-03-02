@@ -1,32 +1,24 @@
 class Conta {
-    private _numero:string;
-    private _saldo:number;
-    constructor(numero:string, saldo=0) {
+    constructor(numero, saldo = 0) {
         this._numero = numero;
         this._saldo = saldo;
     }
-
     get numero() {
         return this._numero;
     }
-
-    set numero(numero:string) {
+    set numero(numero) {
         this._numero = numero;
     }
-
     get saldo() {
         return this._saldo;
     }
-
-    debitar(valor:number) {
+    debitar(valor) {
         //apenas debita se houver saldo
         if (valor < this._saldo) {
             this._saldo -= valor;
         }
     }
-
-    creditar(valor:number) {
+    creditar(valor) {
         this._saldo += valor;
     }
-
 }
